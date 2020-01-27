@@ -66,7 +66,6 @@ public class BinaryHeap {
             int temp = binaryHeap[index];
             binaryHeap[index] = binaryHeap[childIndex];
             binaryHeap[childIndex] = temp;
-            System.out.println(Arrays.toString(binaryHeap));
             index = childIndex;
             leftChildIndex = index * 2 + 1;
             rightChildIndex = index * 2 + 2;
